@@ -22,13 +22,13 @@
 Just download the zip file, extract it wherever you want. Execute the BackPlanner.exe, and Enjoy!
 If you want the app to start when windows start, just follow this steps:
 
-1-Select the Start  button and scroll to find the app you want to run at startup.
+* 1-Select the Start  button and scroll to find the app you want to run at startup.
 
-2-Right-click the app, select More, and then select Open file location. This opens the location where the shortcut to the app is saved. If there isn't an option for Open file location, it means the app can't run at startup.
+* 2-Right-click the app, select More, and then select Open file location. This opens the location where the shortcut to the app is saved. If there isn't an option for Open file location, it means the app can't run at startup.
 
-3-With the file location open, press the Windows logo key  + R, type shell:startup, then select OK. This opens the Startup folder.
+* 3-With the file location open, press the Windows logo key  + R, type shell:startup, then select OK. This opens the Startup folder.
 
-4-Copy and paste the shortcut to the app from the file location to the Startup folder.
+* 4-Copy and paste the shortcut to the app from the file location to the Startup folder.
 
 
 ## Before Starting It
