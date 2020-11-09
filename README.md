@@ -37,10 +37,10 @@ Before starting the app, open the settings file with the editor you want(wordpad
 Here you have 5 variables:  
 
 **xpos**--> The position on the x axis(Horizontal)  
-ypos--> The position on the y axis(Vertical)  
-textcolor--> Color for the text  
-textareacolor--> Color for the border around the text  
-bordercolor--> Color of the external border  
+**ypos**--> The position on the y axis(Vertical)  
+**textcolor**--> Color for the text  
+**textareacolor**--> Color for the border around the text  
+**bordercolor**--> Color of the external border  
 
 
 You can choose a color between this collection:  http://www.colors.commutercreative.com/grid/  
