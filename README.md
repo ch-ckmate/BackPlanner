@@ -36,7 +36,7 @@ If you want the app to start when windows start, just follow this steps:
 Before starting the app, open the settings file with the editor you want(wordpad,vscode...)  
 Here you have 5 variables:  
 
-**xpos--> The position on the x axis(Horizontal)  
+**xpos**--> The position on the x axis(Horizontal)  
 ypos--> The position on the y axis(Vertical)  
 textcolor--> Color for the text  
 textareacolor--> Color for the border around the text  
