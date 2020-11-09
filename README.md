@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a><img width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Calendar_icon_2.svg/989px-Calendar_icon_2.svg.png" alt="BackPlanner"></a>
+  <a><img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Calendar_icon_2.svg/989px-Calendar_icon_2.svg.png" alt="BackPlanner"></a>
 </h1>
 
 <h4 align="center">A simple week planner that stay always on the background</h4>
