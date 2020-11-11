@@ -7,12 +7,7 @@
 
 <p align="center">
     <a href="https://github.com/ch-ckmate/BackPlannercommits/master">
-    <a href="https://github.com/ch-ckmate/BackPlanner/issues">
-    <img src="https://img.shields.io/github/issues-raw/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=github&logoColor=white"
-         alt="GitHub issues">
-    <a href="https://github.com/ch-ckmate/BackPlannerpulls">
-    <img src="https://img.shields.io/github/issues-pr-raw/ArmynC/ArminC-AutoExec.svg?style=flat-square&logo=github&logoColor=white"
-         alt="GitHub pull requests">
+
 </p>
       
 ---
@@ -20,6 +15,8 @@
 ## How to Use
 
 Just download the zip file, extract it wherever you want. Execute the BackPlanner.exe, and Enjoy!
+You will not see the menu bar icon app, instead you'll find the tray icon(in the bottom right corner) where you can quit the app.
+
 If you want the app to start when windows start, just follow this steps:
 
 * Select the Start  button and scroll to find the app you want to run at startup.
