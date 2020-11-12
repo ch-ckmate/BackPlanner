@@ -7,9 +7,10 @@
 
 <center>
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+  </center>
+
   [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/ch-ckmate) 
   [![Generic badge](https://img.shields.io/badge/cp-Electron-green.svg)](https://shields.io/)
-</center>
 
 
       
