@@ -5,10 +5,14 @@
 
 <h2 align="center">A simple week planner that stay always on the background</h2>
 
-|  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) |
+<div style="float:center;margin:0 10px 10px 0" markdown="1">
+
+
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
   [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/ch-ckmate) 
   [![Generic badge](https://img.shields.io/badge/cp-Electron-green.svg)](https://shields.io/)
+  <\div>
 
 
       
