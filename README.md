@@ -9,6 +9,8 @@
     <a href="https://github.com/ch-ckmate/BackPlannercommits/master">
 
 </p>
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/ch-ckmate) [![Generic badge](https://img.shields.io/badge/cp-Electron-green.svg)](https://shields.io/)
       
 ---
       
@@ -16,6 +18,8 @@
 
 Just download the zip file, extract it wherever you want. Execute the BackPlanner.exe, and Enjoy!
 You will not see the menu bar icon app, instead you'll find the tray icon(in the bottom right corner) where you can quit the app.
+I have not yet implemented an auto-update feature, so when in the menu of the tray icon there will be written "Update Available", just click on it and download the new version.
+
 
 If you want the app to start when windows start, just follow this steps:
 
@@ -42,6 +46,10 @@ Here you have 5 variables:
 
 You can choose a color between this collection:  http://www.colors.commutercreative.com/grid/  
 Just substitute the color name, so for example: instead of "white"-->"darkblue"
+
+Now start the exe, or if you have already started it, quit and start again so that changes will be saved.
+**Enjoy!**
+**Remember: To add or change text in the boxes just double-click!**
       
       
       
