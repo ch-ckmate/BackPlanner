@@ -6,11 +6,10 @@
 <h2 align="center">A simple week planner that stay always on the background</h2>
 
 <p align="center">
-    <a href="https://github.com/ch-ckmate/BackPlannercommits/master">
-
+    [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/ch-ckmate) [![Generic badge](https://img.shields.io/badge/cp-Electron-green.svg)](https://shields.io/)
 </p>
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/ch-ckmate) [![Generic badge](https://img.shields.io/badge/cp-Electron-green.svg)](https://shields.io/)
+
       
 ---
       
@@ -47,9 +46,9 @@ Here you have 5 variables:
 You can choose a color between this collection:  http://www.colors.commutercreative.com/grid/  
 Just substitute the color name, so for example: instead of "white"-->"darkblue"
 
-Now start the exe, or if you have already started it, quit and start again so that changes will be saved.
-**Enjoy!**
-**Remember: To add or change text in the boxes just double-click!**
+Now start the exe, or if you have already started it, quit and start again so that changes will be saved.  
+**Enjoy!**  
+**Remember: To add or change text in the boxes just double-click!**  
       
       
       
