@@ -39,7 +39,7 @@ In this way we avoid the accidental clicks.
 Before starting the app, open the settings file with the editor you want(wordpad,vscode...)  
 Here you have 7 variables:  
 
-* **height**&#8594 This refers to the pixel number in height(this feature will be implemented shortly)  
+* **height** &#8594 This refers to the pixel number in height(this feature will be implemented shortly)  
 * **width**--> Change this number according to the width of the app, if it is too big just lower the number(the content will resize automatically).  
 * **xpos**--> The position on the x axis(Horizontal)  
 * **ypos**--> The position on the y axis(Vertical)  
