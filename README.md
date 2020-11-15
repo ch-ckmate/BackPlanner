@@ -30,7 +30,7 @@ If you want the app to start when windows start, just follow this steps:
 
 * Copy and paste the shortcut to the app from the file location to the Startup folder.  
 
-**NOTE** => The app starts with ignore mouse events, so it is like it doesn't exist(you can even move a file/folder behind it), to make change just press CTRL+K, and you will be able to modify your plan with double-click on the boxes, when you will click on another window, the app will reset the starting ignore mouse event.
+**NOTE** →  The app starts with ignore mouse events, so it is like it doesn't exist(you can even move a file/folder behind it), to make change just press CTRL+K, and you will be able to modify your plan with double-click on the boxes, when you will click on another window, the app will reset the starting ignore mouse event.
 
 In this way we avoid the accidental clicks.
 
@@ -40,16 +40,16 @@ Before starting the app, open the settings file with the editor you want(wordpad
 Here you have 7 variables:  
 
 * **height** →  This refers to the pixel number in height(this feature will be implemented shortly)  
-* **width**--> Change this number according to the width of the app, if it is too big just lower the number(the content will resize automatically).  
-* **xpos**--> The position on the x axis(Horizontal)  
-* **ypos**--> The position on the y axis(Vertical)  
-* **textcolor**--> Color for the text  
-* **textareacolor**--> Color for the border around the text  
-* **bordercolor**--> Color of the external border  
+* **width** →  Change this number according to the width of the app, if it is too big just lower the number(the content will resize automatically).  
+* **xpos** →  The position on the x axis(Horizontal)  
+* **ypos** →  The position on the y axis(Vertical)  
+* **textcolor** →  Color for the text  
+* **textareacolor** →  Color for the border around the text  
+* **bordercolor** →  Color of the external border  
 
 
 You can choose a color between this collection:  http://www.colors.commutercreative.com/grid/  
-Just substitute the color name, so for example: instead of "white"-->"darkblue"
+Just substitute the color name, so for example: instead of "white" → "darkblue"
 
 Now start the exe, or if you have already started it, quit and start again so that changes will be saved.  
 You may have to make some attempt in order to find the perfect setting for you.  
