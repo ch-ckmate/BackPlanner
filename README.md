@@ -41,7 +41,7 @@ If you want the app to start when windows start, just follow this steps:
 
 **NOTE** →  The app starts with ignore mouse events, so it is like it doesn't exist(you can even move a file/folder behind it), to make change just press CTRL+K, and you will be able to modify your plan with double-click on the boxes, when you will click on another window, the app will reset the starting ignore mouse event.
 
-In this way we avoid the accidental clicks.
+This way we avoid the accidental clicks.
 
 ## Before Starting It
 
