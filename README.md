@@ -31,13 +31,9 @@ I have not yet implemented an auto-update feature, so when in the menu of the tr
 
 If you want the app to start when windows start, just follow this steps:
 
-* Select the Start  button and scroll to find the app you want to run at startup.
-
-* Right-click the app, select More, and then select Open file location. This opens the location where the shortcut to the app is saved. If there isn't an option for Open file location, it means the app can't run at startup.
-
 * With the file location open, press the Windows logo key  + R, type shell:startup, then select OK. This opens the Startup folder.
 
-* Copy and paste the shortcut to the app from the file location to the Startup folder.  
+* Copy and paste the **shortcut** (right click on backplanner.exe, create shortcut) to the app from the file location to the Startup folder.  
 
 **NOTE** →  The app starts with ignore mouse events, so it is like it doesn't exist(you can even move a file/folder behind it), to make change just press CTRL+K, and you will be able to modify your plan with double-click on the boxes, when you will click on another window, the app will reset the starting ignore mouse event.
 
