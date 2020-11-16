@@ -13,7 +13,7 @@
       
 ---
 
-<img src="app.png" alt="BackPlanner">
+<img src="appimg.png" alt="BackPlanner">
 
 
 ---
