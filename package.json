@@ -1,0 +1,25 @@
+{
+  "name": "BackPlanner",
+  "author": "Alessandro Pigato",
+  "version": "1.0.0",
+  "description": "Always in Background Week Planner",
+  "main": "index.js",
+  "scripts": {
+    "package-win": "electron-packager .  --overwrite --platform=win32 --arch=ia32 --icon=icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE",
+    "test": "electron ."
+  },
+  "keywords": [
+    "calendar",
+    "app",
+    "background"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-packager": "^15.1.0",
+    "electron-winstaller": "^4.0.1"
+  }
+}

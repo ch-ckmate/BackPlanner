@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css" />
+
+    <body onload="">
+        <div class="container">
+
+            <div id="lune"><h1>Monday</h1>
+                <textarea type="text" id="mon1" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="mon2" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="mon3" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="mon4" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="mon5" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                
+            </div>
+            <div id="mar"><h1>Tuesday</h1>
+                <textarea type="text" id="tue1" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="tue2" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="tue3" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="tue4" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="tue5" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+            </div>
+            <div id="mer"><h1>Wednesday</h1>
+                <textarea type="text" id="wed1" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="wed2" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="wed3" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="wed4" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="wed5" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+            </div>
+            <div id="gio"><h1>Thursday</h1>
+                <textarea type="text" id="thu1" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="thu2" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="thu3"readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="thu4" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="thu5" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+            </div>
+            <div id="ven"><h1>Friday</h1>
+                <textarea type="text" id="fri1" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="fri2" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="fri3" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="fri4" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="fri5" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+            </div>
+            
+        </div>
+
+        <script>
+            
+            
+            const fs = require('fs');
+            var textareamon1 = document.getElementById('mon1');
+            var textareamon2 = document.getElementById('mon2');
+            var textareamon3 = document.getElementById('mon3');
+            var textareamon4 = document.getElementById('mon4');
+            var textareamon5 = document.getElementById('mon5');
+            var textareatue1 = document.getElementById('tue1');
+            var textareatue2 = document.getElementById('tue2');
+            var textareatue3 = document.getElementById('tue3');
+            var textareatue4 = document.getElementById('tue4');
+            var textareatue5 = document.getElementById('tue5');
+            var textareawed1 = document.getElementById('wed1');
+            var textareawed2 = document.getElementById('wed2');
+            var textareawed3 = document.getElementById('wed3');
+            var textareawed4 = document.getElementById('wed4');
+            var textareawed5 = document.getElementById('wed5');
+            var textareathu1 = document.getElementById('thu1');
+            var textareathu2 = document.getElementById('thu2');
+            var textareathu3 = document.getElementById('thu3');
+            var textareathu4 = document.getElementById('thu4');
+            var textareathu5 = document.getElementById('thu5');
+            var textareafri1 = document.getElementById('fri1');
+            var textareafri2 = document.getElementById('fri2');
+            var textareafri3 = document.getElementById('fri3');
+            var textareafri4 = document.getElementById('fri4');
+            var textareafri5 = document.getElementById('fri5');
+
+            function updateResult() {
+               m1 = textareamon1.value;
+               m2 = textareamon2.value;
+               m3 = textareamon3.value;
+               m4 = textareamon4.value;
+               m5 = textareamon5.value;
+               t1 = textareatue1.value;
+               t2 = textareatue2.value;
+               t3 = textareatue3.value;
+               t4 = textareatue4.value;
+               t5 = textareatue5.value;
+               w1 = textareawed1.value;
+               w2 = textareawed2.value;
+               w3 = textareawed3.value;
+               w4 = textareawed4.value;
+               w5 = textareawed5.value;
+               th1 = textareathu1.value;
+               th2 = textareathu2.value;
+               th3 = textareathu3.value;
+               th4 = textareathu4.value;
+               th5 = textareathu5.value;
+               f1 = textareafri1.value;
+               f2 = textareafri2.value;
+               f3 = textareafri3.value;
+               f4 = textareafri4.value;
+               f5 = textareafri5.value;
+               
+               var obj = '{'
+                     +'"mon1" : '+'"'+m1+'"'+','
+                     +'"mon2" : '+'"'+m2+'"'+','
+                     +'"mon3" : '+'"'+m3+'"'+','
+                     +'"mon4" : '+'"'+m4+'"'+','
+                     +'"mon5" : '+'"'+m5+'"'+','
+                     +'"tue1" : '+'"'+t1+'"'+','
+                     +'"tue2" : '+'"'+t2+'"'+','
+                     +'"tue3" : '+'"'+t3+'"'+','
+                     +'"tue4" : '+'"'+t4+'"'+','
+                     +'"tue5" : '+'"'+t5+'"'+','
+                     +'"wed1" : '+'"'+w1+'"'+','
+                     +'"wed2" : '+'"'+w2+'"'+','
+                     +'"wed3" : '+'"'+w3+'"'+','
+                     +'"wed4" : '+'"'+w4+'"'+','
+                     +'"wed5" : '+'"'+w5+'"'+','
+                     +'"thu1" : '+'"'+th1+'"'+','
+                     +'"thu2" : '+'"'+th2+'"'+','
+                     +'"thu3" : '+'"'+th3+'"'+','
+                     +'"thu4" : '+'"'+th4+'"'+','
+                     +'"thu5" : '+'"'+th5+'"'+','
+                     +'"fri1" : '+'"'+f1+'"'+','
+                     +'"fri2" : '+'"'+f2+'"'+','
+                     +'"fri3" : '+'"'+f3+'"'+','
+                     +'"fri4" : '+'"'+f4+'"'+','
+                     +'"fri5" : '+'"'+f5+'"'
+                     +'}';
+               fs.writeFileSync('./resources/app/weekplan.json', obj);
+            }
+
+            textareamon1.onkeyup = updateResult;
+            textareamon2.onkeyup = updateResult;
+            textareamon3.onkeyup = updateResult;
+            textareamon4.onkeyup = updateResult;
+            textareamon5.onkeyup = updateResult;
+            textareatue1.onkeyup = updateResult;
+            textareatue2.onkeyup = updateResult;
+            textareatue3.onkeyup = updateResult;
+            textareatue4.onkeyup = updateResult;
+            textareatue5.onkeyup = updateResult;
+            textareawed1.onkeyup = updateResult;
+            textareawed2.onkeyup = updateResult;
+            textareawed3.onkeyup = updateResult;
+            textareawed4.onkeyup = updateResult;
+            textareawed5.onkeyup = updateResult;
+            textareathu1.onkeyup = updateResult;
+            textareathu2.onkeyup = updateResult;
+            textareathu3.onkeyup = updateResult;
+            textareathu4.onkeyup = updateResult;
+            textareathu5.onkeyup = updateResult;
+            textareafri1.onkeyup = updateResult;
+            textareafri2.onkeyup = updateResult;
+            textareafri3.onkeyup = updateResult;
+            textareafri4.onkeyup = updateResult;
+            textareafri5.onkeyup = updateResult;
+             
+            
+   
+
+         
+             
+        </script>
+
+
+
+
+    </body>
+
+
+
+
+
+</html>
