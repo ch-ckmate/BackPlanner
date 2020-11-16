@@ -14,6 +14,7 @@
 ---
 
 <img src="appimg.png" alt="BackPlanner">
+*Note: The background is transparent.*
 
 
 ---
