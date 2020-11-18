@@ -42,6 +42,7 @@ This way we avoid the accidental clicks.
 ## Before Starting It
 
 Before starting the app, open the settings file with the editor you want(wordpad,vscode...)  
+**The settings file is in the */resources/app/* folder**  
 Here you have 7 variables:  
 
 * **height** →  This refers to the pixel number in height(this feature will be implemented shortly)  
@@ -62,8 +63,10 @@ You may have to make some attempt in order to find the perfect setting for you.
 **Enjoy!**  
 **Remember: To add or change text in the boxes just double-click!**  
       
-      
-      
+## Second Monitor   
+If you want to start the app on other monitors, just play with the **xpos** and **ypos** <a href="https://stackoverflow.com/questions/53012896/using-setwindowpos-with-multiple-monitors/53026765">this answer</a> could help you find the right numbers.  
+ 
+ 
 ## License
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
