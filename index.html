@@ -6,7 +6,7 @@
         <div class="container">
 
             <div id="lune"><h1>Monday</h1>
-                <textarea type="text" id="mon1" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
+                <textarea type="text" id="mon1" readonly="true" onkeypress="onTestChange();" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
                 <textarea type="text" id="mon2" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
                 <textarea type="text" id="mon3" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
                 <textarea type="text" id="mon4" readonly="true" onblur="this.readOnly='true';" ondblclick="this.readOnly='';"></textarea>
@@ -76,30 +76,55 @@
 
             function updateResult() {
                m1 = textareamon1.value;
+               m1=m1.replace(/\n/g, "\\\\n");
                m2 = textareamon2.value;
+               m2=m2.replace(/\n/g, "\\\\n");
                m3 = textareamon3.value;
+               m3=m3.replace(/\n/g, "\\\\n");
                m4 = textareamon4.value;
+               m4=m4.replace(/\n/g, "\\\\n");
                m5 = textareamon5.value;
+               m5=m5.replace(/\n/g, "\\\\n");
                t1 = textareatue1.value;
+               t1=t1.replace(/\n/g, "\\\\n");
                t2 = textareatue2.value;
+               t2=t2.replace(/\n/g, "\\\\n");
                t3 = textareatue3.value;
+               t3=t3.replace(/\n/g, "\\\\n");
                t4 = textareatue4.value;
+               t4=t4.replace(/\n/g, "\\\\n");
                t5 = textareatue5.value;
+               t5=t5.replace(/\n/g, "\\\\n");
                w1 = textareawed1.value;
+               w1=w1.replace(/\n/g, "\\\\n");
                w2 = textareawed2.value;
+               w2=w2.replace(/\n/g, "\\\\n");
                w3 = textareawed3.value;
+               w3=w3.replace(/\n/g, "\\\\n");
                w4 = textareawed4.value;
+               w4=w4.replace(/\n/g, "\\\\n");
                w5 = textareawed5.value;
+               w5=w5.replace(/\n/g, "\\\\n");
                th1 = textareathu1.value;
+               th1=th1.replace(/\n/g, "\\\\n");
                th2 = textareathu2.value;
+               th2=th2.replace(/\n/g, "\\\\n");
                th3 = textareathu3.value;
+               th3=th3.replace(/\n/g, "\\\\n");
                th4 = textareathu4.value;
+               th4=th4.replace(/\n/g, "\\\\n");
                th5 = textareathu5.value;
+               th5=th5.replace(/\n/g, "\\\\n");
                f1 = textareafri1.value;
+               f1=f1.replace(/\n/g, "\\\\n");
                f2 = textareafri2.value;
+               f2=f2.replace(/\n/g, "\\\\n");
                f3 = textareafri3.value;
+               f3=f3.replace(/\n/g, "\\\\n");
                f4 = textareafri4.value;
+               f4=f4.replace(/\n/g, "\\\\n");
                f5 = textareafri5.value;
+               f5=f5.replace(/\n/g, "\\\\n");
                
                var obj = '{'
                      +'"mon1" : '+'"'+m1+'"'+','
@@ -156,10 +181,6 @@
             textareafri3.onkeyup = updateResult;
             textareafri4.onkeyup = updateResult;
             textareafri5.onkeyup = updateResult;
-             
-            
-   
-
          
              
         </script>

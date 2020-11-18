@@ -1,5 +1,6 @@
 const {app, BrowserWindow, Menu, Tray} = require('electron');
 let tray = null
+const electron = require('electron')
 const fs = require('fs');
 const path = require('path');
 const shell = require('electron').shell;
@@ -22,7 +23,7 @@ function createWindow () {
     });
     globalShortcut.register('Control+K', () => {  // creates a global shortcut
         mainWindow.setIgnoreMouseEvents(false);     // action when shortcut is pressed
-                        })
+    })
     mainWindow.loadFile('index.html');
     mainWindow.blur();   
     mainWindow.setIgnoreMouseEvents(true);
@@ -126,6 +127,34 @@ function createWindow () {
     mainWindow.webContents.executeJavaScript(`document.querySelector("#ven #fri4").style.color = '${textcolor}'`)
     mainWindow.webContents.executeJavaScript(`document.querySelector("#ven #fri5").style.color = '${textcolor}'`)
 
+    let currentday = JSON.parse(rawdata).currentday;
+        
+    var datetime = new Date();
+    if (datetime.getDay() == 3){
+        mainWindow.webContents.executeJavaScript(`document.getElementById("mer").style.borderColor = '${currentday}'`)
+
+    }
+    if (datetime.getDay() == 1){
+        mainWindow.webContents.executeJavaScript(`document.getElementById("lune").style.borderColor = '${currentday}'`)
+
+    }
+    if (datetime.getDay() == 2){
+        mainWindow.webContents.executeJavaScript(`document.getElementById("mar").style.borderColor = '${currentday}'`)
+
+    }
+    if (datetime.getDay() == 4){
+        mainWindow.webContents.executeJavaScript(`document.getElementById("gio").style.borderColor = '${currentday}'`)
+
+    }
+    if (datetime.getDay() == 5){
+        mainWindow.webContents.executeJavaScript(`document.getElementById("ven").style.borderColor = '${currentday}'`)
+
+    }
+
+
+
+
+
     additem();
     //mainWindow.webContents.openDevTools();
     //
@@ -183,7 +212,11 @@ function additem() {
     })
 }
 
-app.on('ready', createWindow);
+
+app.on('ready', createWindow)
+
+
+
 
 app.on('window-all-closed', function () {
     // On macOS it is common for applications and their menu bar

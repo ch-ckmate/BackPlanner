@@ -1,9 +1,10 @@
 {
-    "xpos": 300,
-    "ypos": 300,
+    "xpos": 1990,
+    "ypos": 120,
     "height": 100,
     "width": 1300,
     "textcolor": "white",
     "textareacolor": "white",
-    "bordercolor": "white"
+    "bordercolor": "white",
+    "currentday": "green"
 }
