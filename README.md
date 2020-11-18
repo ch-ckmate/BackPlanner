@@ -49,9 +49,10 @@ Here you have 7 variables:
 * **width** →  Change this number according to the width of the app, if it is too big just lower the number(the content will resize automatically).  
 * **xpos** →  The position on the x axis(Horizontal)  
 * **ypos** →  The position on the y axis(Vertical)  
-* **textcolor** →  Color for the text  
-* **textareacolor** →  Color for the border around the text  
+* **textcolor** →  Color of the text  
+* **textareacolor** →  Color of the border around the text  
 * **bordercolor** →  Color of the external border  
+* **currentday** → Color of the border of the current day(if you don't want that current day differ just set the color like others border)
 
 
 You can choose a color between this collection:  http://www.colors.commutercreative.com/grid/  
