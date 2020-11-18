@@ -1,7 +1,7 @@
 {
   "name": "BackPlanner",
   "author": "Alessandro Pigato",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Always in Background Week Planner",
   "main": "index.js",
   "scripts": {

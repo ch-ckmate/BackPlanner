@@ -32,7 +32,7 @@ function createWindow () {
         const response = await fetch('https://raw.githubusercontent.com/ch-ckmate/BackPlanner/main/version');
         const body = await response.text();
         console.log(body)
-        if (body.toString().trim()=='1.0.0'){
+        if (body.toString().trim()=='1.0.1'){
             var versioneatt="Up to date"
         }else{
             var versioneatt="Update Available"
