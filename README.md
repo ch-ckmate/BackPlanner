@@ -20,8 +20,7 @@
 
 ---
 
-[![forthebadge](https://forthebadge.com/images/badges/gluten-Download.svg)](https://forthebadge.com)
-
+[![Generic badge](https://img.shields.io/badge/cp-Download-green.svg)](https://shields.io/)
 
 
       
