@@ -20,7 +20,7 @@
 
 ---
 
-<button name="button" onclick="http://www.google.com">Click me</button>
+[Link button](http://example.com/){: .btn .btn-green }
 
 
       
