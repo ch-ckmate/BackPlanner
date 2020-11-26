@@ -20,7 +20,7 @@
 
 ---
 
-[![Generic badge](https://img.shields.io/badge/cp-Download-green.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/static/v1?label=<LABEL>&message=Download&color=success)](https://shields.io/)
 
 
       
