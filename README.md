@@ -19,12 +19,13 @@
 
 
 ---
-
+## Download  
 <p align="center">
     <a href="https://github.com/ch-ckmate/BackPlanner/releases/download/1.0.1/BackPlanner.zip" alt="Download">
-        <img src="https://img.shields.io/static/v1?label=&message=Download&color=success" /></a>
+        <img src="https://img.shields.io/static/v1?label=&message=Download&color=success" width="200" height="400"/></a>
 </p>
-
+  
+  
       
 ## How to Use
 
