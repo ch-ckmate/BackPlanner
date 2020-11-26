@@ -20,8 +20,10 @@
 
 ---
 
-[![Generic badge](https://img.shields.io/static/v1?label=&message=Download&color=success?style=for-the-badge&logo=appveyor)](https://shields.io/)
-
+<p align="center">
+    <a href="https://github.com/ch-ckmate/BackPlanner/releases/download/1.0.1/BackPlanner.zip" alt="Download">
+        <img src="https://img.shields.io/static/v1?label=&message=Download&color=success" /></a>
+</p>
 
       
 ## How to Use
