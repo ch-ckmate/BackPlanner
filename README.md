@@ -20,7 +20,7 @@
 
 ---
 
-[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/-Download.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/Click For-Download.svg)](http://ForTheBadge.com)
 
 
 
