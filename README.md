@@ -20,7 +20,8 @@
 
 ---
 
- [Link button](http://example.com/){: .btn .btn-green }
+<a class="btn btn-white" href="/handbook/toc/">Read more</a>
+
 
 
       
