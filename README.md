@@ -20,7 +20,8 @@
 
 ---
 
-<a class="btn btn-white" href="/handbook/toc/">Read more</a>
+![Custom button](https://cloud.githubusercontent.com/assets/1636737/7920909/7403d906-08aa-11e5-92d5-f92a09bc2bdc.png)
+
 
 
 
