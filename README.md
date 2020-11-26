@@ -20,8 +20,7 @@
 
 ---
 
-[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/Click For-Download.svg)](http://ForTheBadge.com)
-
+[![forthebadge](https://forthebadge.com/images/badges/gluten-Download.svg)](https://forthebadge.com)
 
 
 
