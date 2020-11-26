@@ -20,7 +20,7 @@
 
 ---
 
-[![Generic badge](https://img.shields.io/static/v1?label=&message=Download&color=success)](https://shields.io/)
+[![Generic badge](https://img.shields.io/static/v1?label=&message=Download&color=success?style=for-the-badge&logo=appveyor)](https://shields.io/)
 
 
       
