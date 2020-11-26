@@ -20,7 +20,7 @@
 
 ---
 
-[Link button](http://example.com/){: .btn .btn-green }
+ [Link button](http://example.com/){: .btn .btn-green }
 
 
       
