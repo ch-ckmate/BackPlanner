@@ -20,6 +20,7 @@
 
 ---
 
+[Download](http://www.google.com){: .btn}
 
       
 ## How to Use
