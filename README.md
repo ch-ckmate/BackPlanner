@@ -29,12 +29,12 @@
       
 ## How to Use
 
-Just download the zip file, extract it wherever you want. Execute the BackPlanner.exe, and Enjoy!
+Download the zip file, extract it wherever you want, execute the BackPlanner.exe, and Enjoy!
 You will not see the menu bar icon app, instead you'll find the tray icon(in the bottom right corner) where you can quit the app.
 I have not yet implemented an auto-update feature, so when in the menu of the tray icon there will be written "Update Available", just click on it and download the new version.
 
 
-If you want the app to start when windows start, just follow this steps:
+If you want the app to start at Windows startup, just follow this steps:
 
 * With the file location open, press the Windows logo key  + R, type shell:startup, then select OK. This opens the Startup folder.
 
@@ -46,7 +46,7 @@ This way we avoid the accidental clicks.
 
 ## Before Starting It
 
-Before starting the app, open the settings file with the editor you want(wordpad,vscode...)  
+Before starting the app, open the settings file with the editor of your choice (wordpad,vscode...)  
 **The settings file is in the */resources/app/* folder**  
 Here you have 7 variables:  
 
@@ -64,17 +64,17 @@ You can choose a color between this collection:  http://www.colors.commutercreat
 Just substitute the color name, so for example: instead of "white" → "darkblue"
 
 Now start the exe, or if you have already started it, quit and start again so that changes will be saved.  
-You may have to make some attempt in order to find the perfect setting for you.  
+You may have to make some attempt in order to find the perfect settings for you.  
 
 **Enjoy!**  
 **Remember: To add or change text in the boxes just double-click!**  
       
 ## Second Monitor   
-If you want to start the app on other monitors, just play with the **xpos** and **ypos** <a href="https://stackoverflow.com/questions/53012896/using-setwindowpos-with-multiple-monitors/53026765">this answer</a> could help you find the right numbers.  
+If you want to start the app on other monitors, just play with the **xpos** and **ypos** variables, <a href="https://stackoverflow.com/questions/53012896/using-setwindowpos-with-multiple-monitors/53026765">this answer</a> could help you find the right numbers.  
  
  
 ## License
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-- Copyright © [CheckMate](https://github.com/ch-ckmate).
+- Copyright © [Alessandro Pigato](https://github.com/ch-ckmate).
